@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html>
-<body style="background-color: aqua;">
-
-<h2>Using The id Attribute in JavaScript</h2>
-<p>JavaScript can access an element with a specified id by using the getElementById() method:</p>
-
-<h1 id="myHeader">Hello World!</h1>
-<button onclick="displayResult()">Change text</button>
-
-<script>
-function displayResult() {
-  document.getElementById("myHeader").innerHTML = "Happy New Year 2022";
-}
-</script>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date </title>
+</head>
+<body>
+    <h1>This is Currently Date</h1>
+    <button type="button" onclick="showDate()">ShowDate</button>
+    <div id="date"></div>
+    <script>
+        showDate = function() {
+            let date = document.getElementById("date");
+            date.innerHTML = new Date();
+        }
+    </script>
 </body>
 </html>
-
