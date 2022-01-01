@@ -1,97 +1,234 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; 
-  background: #ccc;
-  padding: 20px;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; 
-}
-
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
+	<title>
+		Simple web Development Template
+	</title>
 </head>
-<body style="background-color: chartreuse;">
 
-<h2>CSS Layout Float</h2>
-<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src="logo.png">
+			</div>
+			<li><a href="#web">Web Technology</a></li>
+			<li><a href="#program">C Programming</a></li>
+			<li><a href="#course">Courses</a></li>
+		</ul>
 
-<header>
-  <h2>Cities</h2>
-</header>
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
 
-<section>
-  <nav>
-    <ul>
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
-    </ul>
-  </nav>
-  
-  <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-  </article>
-</section>
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web">
+					Web Technology
+				</h1>
+				
+				<p class="text-small">
+					HTML stands for HyperText Markup
+					Language. It is used to design
+					web pages using a markup language.
+					HTML is the combination of Hypertext
+					and Markup language. Hypertext
+					defines the link between the web
+					pages. A markup language is used
+					to define the text document within
+					tag which defines the structure of
+					web pages. HTML is a markup language
+					that is used by the browser to
+					manipulate text, images, and other
+					content to display it in the required
+					format.
+				</p>
 
-<footer>
-  <p>Footer</p>
-</footer>
 
+			</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="secondHalf">
+				<h1 class="text-big" id="program">
+					C Programming
+				</h1>
+				<p class="text-small">
+					C is a procedural programming language.
+					It was initially developed by Dennis
+					Ritchie as a system programming
+					language to write operating system.
+					The main features of C language include
+					low-level access to memory, simple set
+					of keywords, and clean style, these
+					features make C language suitable for
+					system programming like operating system
+					or compiler development.
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="paras">
+			<h1 class="sectionTag text-big">Java</h1>
+
+			<p class="sectionSubTag text-small">
+				Java has been one of the most
+				popular programming language
+				for many years. Java is Object
+				Oriented. However it is not
+				considered as pure object oriented
+				as it provides support for primitive
+				data types (like int, char, etc) The
+				Java codes are first compiled into byte
+				code (machine independent code). Then
+				the byte code is run on Java Virtual
+				Machine (JVM) regardless of the
+				underlying architecture.
+			</p>
+
+
+		</div>
+
+		<div class="thumbnail">
+			<img src="img.png" alt="laptop image">
+		</div>
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All rights are reserved
+		</p>
+
+
+	</footer>
 </body>
-</html>
 
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>
+		Simple web Development Template
+	</title>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src="logo.png">
+			</div>
+			<li><a href="#web">Web Technology</a></li>
+			<li><a href="#program">C Programming</a></li>
+			<li><a href="#course">Courses</a></li>
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web">
+					Web Technology
+				</h1>
+				
+				<p class="text-small">
+					HTML stands for HyperText Markup
+					Language. It is used to design
+					web pages using a markup language.
+					HTML is the combination of Hypertext
+					and Markup language. Hypertext
+					defines the link between the web
+					pages. A markup language is used
+					to define the text document within
+					tag which defines the structure of
+					web pages. HTML is a markup language
+					that is used by the browser to
+					manipulate text, images, and other
+					content to display it in the required
+					format.
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="secondHalf">
+				<h1 class="text-big" id="program">
+					C Programming
+				</h1>
+				<p class="text-small">
+					C is a procedural programming language.
+					It was initially developed by Dennis
+					Ritchie as a system programming
+					language to write operating system.
+					The main features of C language include
+					low-level access to memory, simple set
+					of keywords, and clean style, these
+					features make C language suitable for
+					system programming like operating system
+					or compiler development.
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="paras">
+			<h1 class="sectionTag text-big">Java</h1>
+
+			<p class="sectionSubTag text-small">
+				Java has been one of the most
+				popular programming language
+				for many years. Java is Object
+				Oriented. However it is not
+				considered as pure object oriented
+				as it provides support for primitive
+				data types (like int, char, etc) The
+				Java codes are first compiled into byte
+				code (machine independent code). Then
+				the byte code is run on Java Virtual
+				Machine (JVM) regardless of the
+				underlying architecture.
+			</p>
+
+
+		</div>
+
+		<div class="thumbnail">
+			<img src="img.png" alt="laptop image">
+		</div>
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All rights are reserved
+		</p>
+
+
+	</footer>
+</body>
+
+</html>
