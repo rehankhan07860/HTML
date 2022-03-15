@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+fieldset {
+  background-color: violet;
+}
+
+.a {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+  
+}
+.a:hover {
+  background-color: blue;
+}
+
+
+input {
+  margin: 5px;
+}
+h1 {
+  text-align: center;
+  color: black;
+  background-color: aqua;
+  font-size: 30px;
+}
+.mydiv {
+  text-align: center;
+}
+#fname {
+  border: 4px solid black;
+  background-color: yellow;
+  border-radius: 2px;
+  font-size: 20px;
+  
+}
+#lname {
+  border: 4px solid black;
+  background-color: yellow;
+  border-radius: 2px;
+  font-size: 20px;
+}
+#email {
+  border: 4px solid black;
+  background-color: yellow;
+  border-radius: 2px;
+  font-size: 20px;
+}
+#birthday {
+  border: 4px solid black;
+  background-color: yellow;
+  border-radius: 2px;
+  font-size: 20px;
+}
+#cont {
+  border: 4px solid black;
+  background-color: yellow;
+  border-radius: 2px;
+  font-size: 20px;
+}
+#submit {
+  background-color: black;
+  color: green;
+  font-size: 20px;
+}
+#submit:hover {
+  background-color: blue;
+}
+#reset {
+  background-color: black;
+  color: red;
+  font-size: 20px;
+}
+#reset:hover {
+  background-color: blue;
+}
+
+</style>
+</head>
+<body>
+  <h1><marquee>Rajistration Form</marquee></h1>
+  <div class="mydiv">
+  <form action="/action_page.php">
+ <fieldset>
+  <legend class="a">Information:</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" placeholder="Enter your last name"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+  <label for="birthday">DOB:</label>
+  <input type="date" id="birthday" name="birthday" placeholder="Enter you DOB"><br><br>
+  <label for="mobail">Mobail</label>
+  <input type="text" id="cont" name="mobail" placeholder="Enter your mobail no"><br><br>
+  <input type="Submit" id = "submit" class="sub" value="Submit">
+  <input type="Reset" id="reset" value="Reset">
+ </fieldset>
+</form>
+</div>
+</body>
+</html>

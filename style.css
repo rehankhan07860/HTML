@@ -1,25 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka:wght@300;400;500;600;700&family=Libre+Franklin:wght@100&family=Nunito+Sans:wght@200&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
 * {
     margin: 0%;
     padding: 0%;
-}
-
-body {
-    background-image: url(sgvu.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;;
 }
 
 .container {
+    margin-top: -9px;
+    border-radius: 42px;
+    word-spacing: 40px;
     text-align: center;
-    margin-top: 100px;
-    line-height: 30px;
-    
+    background-color: #f5ede3;
+    height: 750px;
+    margin-left: -1px;
+    margin-right: -13px;
 }
-.myclass {
-    margin-top: 1px;
-}
-input {
+
+#home {
+    padding-top: 32px;
+    margin-top: -25px;
     font-size: 20px;
-    border-radius: 2px;
-    width: 400px;
+    color: black;
 }
+#hello{
+    color: black;
+    text-decoration-line: none;
+}
+#menu {
+    color: black;
+    text-decoration-line: none;
+}
+#contact {
+    color: black;
+    text-decoration-line: none;
+}
+#shop {
+    color: black;
+    text-decoration-line: none;
+}
+.rehan {
+    text-align: left;
+    margin-left: 167px;
+    margin-top: -36px;
+}
+
+
+#logo {
+    display: flex;
+    margin-left: 183px;
+    margin-top: 4px;
+}
+
+#search {
+    border-color: rgb(177, 173, 173);
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin-left: 47px;
+    border-radius: 20px;
+}
+#pic {
+    height: 608px;
+    width: 780px;
+    text-align: right;
+    margin-left: 152px;
+    margin-top: 49px;
+}
+
+.my-food {
+    display: flex;
+    direction: ltr;
+    align-items: center;
+}
+
+.fast {
+    display: flex;
+    margin-top: -288px;
+    color: #f05417d3;
+    margin-left: 170px;
+    font-weight: 1000;
+    font-size: 5em;
+}
+#slow {
+    letter-spacing: -3px;
+    margin-left: -8px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 21px;
+    margin: left -12px;
+    color: black;
+    font-size: -webkit-xxx-large;
+}
+
+#button {
+    font-size: 20px;
+    border-radius: 69px;
+    background-color: #302929;
+    height: 49px;
+    width: 139px;
+    margin-top: 252px;
+    margin-left: -370px;
+    color: white;
+}
+#music {
+    background-color: white;
+    margin-left: 31px;
+    margin-top: 264px;
+    height: 30px;
+    width: 26px;
+}
+#video {
+    color: #271f1f;
+    word-spacing: 2px;
+    margin-top: 264px;
+    font-size: 20px;
+    margin-left: 11px;
+}
+.picture {
+    letter-spacing: -120px;
+    margin-top: -227px;
+    margin-left: -1032px;
+}
+#rating {
+   
+    margin-left: -1071px;
+    word-spacing: 0px;
+}
+.dis {
+    border-right: azure;
+    width: 217px;
+    margin-top: -88px;
+    text-align: right;
+    margin-right: -160px;
+    height: 53px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 25px;
+    border-color: white;
+    border-block: 0px;
+    border-left: azure;
+    background-color: linen;
+}
+#based {
+    margin-left: -1002px;
+    word-spacing: 0px;
+}
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 fontawesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        transform: translate(0, 0);
+    }
+
+
